@@ -32,3 +32,12 @@ print(banana_amount)
 #several variables in print
 print(y + v)
 print(a + A)
+
+#functions
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
